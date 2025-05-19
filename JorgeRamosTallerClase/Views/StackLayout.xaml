@@ -25,5 +25,11 @@
             Clicked="FlexLayout_Clicked"
             />
 
+        <Button
+            x:Name="Atras"
+            Text="Ir a gridlayout"
+            Clicked="Atras_Clicked_1"
+            />
+
     </VerticalStackLayout>
 </ContentPage>
