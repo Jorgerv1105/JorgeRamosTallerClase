@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JorgeRamosTallerClase.Views.AbsoluteLayout"
+             Title="AbsoluteLayout">
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <!-- FlexLayout con botones -->
+        <FlexLayout 
+            Direction="Row"
+            Wrap="Wrap"
+            JustifyContent="Start">
+
+            <Button Text="Botón 1"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    Margin="5"/>
+
+            <Button Text="Botón 2"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    Margin="5"/>
+
+            <Button Text="Botón 3"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    Margin="5"/>
+
+            <Button Text="Botón 4"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    Margin="5"/>
+        </FlexLayout>
+
+        <!-- Botón que navega a la pantalla de AbsoluteLayout -->
+
+
+    </VerticalStackLayout>
+</ContentPage>

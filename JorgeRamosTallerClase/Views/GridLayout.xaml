@@ -39,9 +39,17 @@
                
                />
         <Button
-            x:Name="Ir a Stack"
-            
-            />
+    x:Name="Stack"
+    Text="Ir a Stack"
+    Clicked="Stack_Clicked"
+    Grid.Row="1"
+    Grid.Column="1"
+    WidthRequest="80"
+    HeightRequest="30"
+    HorizontalOptions="Center"
+    VerticalOptions="Center"
+/>
+
 
 
     </Grid>
