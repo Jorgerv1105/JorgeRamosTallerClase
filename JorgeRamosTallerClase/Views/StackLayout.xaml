@@ -27,7 +27,7 @@
 
         <Button
             x:Name="Atras"
-            Text="Ir a gridlayout"
+            Text="Regresar"
             Clicked="Atras_Clicked_1"
             />
 

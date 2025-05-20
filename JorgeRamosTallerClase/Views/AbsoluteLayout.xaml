@@ -3,37 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JorgeRamosTallerClase.Views.AbsoluteLayout"
              Title="AbsoluteLayout">
-    <VerticalStackLayout Padding="20" Spacing="20">
+    <AbsoluteLayout>
 
-        <!-- FlexLayout con botones -->
-        <FlexLayout 
-            Direction="Row"
-            Wrap="Wrap"
-            JustifyContent="Start">
-
-            <Button Text="Botón 1"
-                    WidthRequest="100"
-                    HeightRequest="50"
-                    Margin="5"/>
-
-            <Button Text="Botón 2"
-                    WidthRequest="100"
-                    HeightRequest="50"
-                    Margin="5"/>
-
-            <Button Text="Botón 3"
-                    WidthRequest="100"
-                    HeightRequest="50"
-                    Margin="5"/>
-
-            <Button Text="Botón 4"
-                    WidthRequest="100"
-                    HeightRequest="50"
-                    Margin="5"/>
-        </FlexLayout>
-
-        <!-- Botón que navega a la pantalla de AbsoluteLayout -->
+        <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <StackLayout Padding="20" Spacing="20">
+                <Label Text="Contenido de prueba" FontSize="24" />
+                <BoxView HeightRequest="1000" Color="LightGray" />
+                <Label Text="Fin del contenido" FontSize="18" />
+            </StackLayout>
+        </ScrollView>
 
 
-    </VerticalStackLayout>
+        <Image Source="icono.png"
+               AbsoluteLayout.LayoutBounds="0.05,0.05,40,40"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               />
+
+        <Button Text="Ir a Grid"
+                Clicked="OnGoToGridLayout"
+                BackgroundColor="DarkBlue"
+                TextColor="White"
+                CornerRadius="20"
+                WidthRequest="100"
+                HeightRequest="50"
+                AbsoluteLayout.LayoutBounds="1,1,AutoSize,AutoSize"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+    </AbsoluteLayout>
 </ContentPage>

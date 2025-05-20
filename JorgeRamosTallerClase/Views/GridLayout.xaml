@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JorgeRamosTallerClase.Views.GridLayout"
              Title="GridLayout">
+
     <Grid>
+       
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
@@ -12,45 +14,37 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
+
+        
         <BoxView Color="Green" />
-        <Label Text="Row 0, Column 0"
-               HorizontalOptions="Center"
+        <Label HorizontalOptions="Center"
                VerticalOptions="Center" />
+
         <BoxView Grid.Column="1"
                  Color="Blue" />
         <Label Grid.Column="1"
-               Text="Row 0, Column 1"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
+
         <BoxView Grid.Row="1"
                  Color="Teal" />
         <Label Grid.Row="1"
-               Text="Row 1, Column 0"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
+
         <BoxView Grid.Row="1"
                  Grid.Column="1"
                  Color="Purple" />
-        <Label Grid.Row="1"
-               Grid.Column="1"
-               Text="Row1, Column 1"
-               HorizontalOptions="Center"
-               VerticalOptions="Center" 
-               
-               />
-        <Button
-    x:Name="Stack"
-    Text="Ir a Stack"
-    Clicked="Stack_Clicked"
-    Grid.Row="1"
-    Grid.Column="1"
-    WidthRequest="80"
-    HeightRequest="30"
-    HorizontalOptions="Center"
-    VerticalOptions="Center"
-/>
 
 
-
+        <Button x:Name="IrAStackLayoutButton"
+                Text="Ir a Stack"
+                Clicked="Stack_Clicked"
+                Grid.Row="1"
+                Grid.Column="1"
+                WidthRequest="100"
+                HeightRequest="40"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
     </Grid>
 </ContentPage>
