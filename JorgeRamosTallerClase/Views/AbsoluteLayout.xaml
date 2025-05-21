@@ -8,17 +8,26 @@
         <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
                     AbsoluteLayout.LayoutFlags="All">
             <StackLayout Padding="20" Spacing="20">
-                <Label Text="Contenido de prueba" FontSize="24" />
-                <BoxView HeightRequest="1000" Color="LightGray" />
-                <Label Text="Fin del contenido" FontSize="18" />
+                <Label Text="Doom: The Dark Ages es un juego de disparos en primera persona desarrollado por id Software y publicado por Bethesda Softworks. Es la octava entrega principal de la franquicia Doom y la tercera entrega de la serie moderna, tras Doom Eternal (2020). El juego se ambienta muchos años antes de Doom (2016) y sigue los esfuerzos del Doom Slayer por salvar a la humanidad durante una guerra contra el Infierno." 
+                       FontSize="24" />
+                <Label Text="Doom: The Dark Ages es un juego de disparos en primera persona desarrollado por id Software y publicado por Bethesda Softworks. Es la octava entrega principal de la franquicia Doom y la tercera entrega de la serie moderna, tras Doom Eternal (2020). El juego se ambienta muchos años antes de Doom (2016) y sigue los esfuerzos del Doom Slayer por salvar a la humanidad durante una guerra contra el Infierno." 
+         FontSize="24" />
+                <Label Text="Doom: The Dark Ages es un juego de disparos en primera persona desarrollado por id Software y publicado por Bethesda Softworks. Es la octava entrega principal de la franquicia Doom y la tercera entrega de la serie moderna, tras Doom Eternal (2020). El juego se ambienta muchos años antes de Doom (2016) y sigue los esfuerzos del Doom Slayer por salvar a la humanidad durante una guerra contra el Infierno." 
+         FontSize="24" />
+                <Label Text="Doom: The Dark Ages es un juego de disparos en primera persona desarrollado por id Software y publicado por Bethesda Softworks. Es la octava entrega principal de la franquicia Doom y la tercera entrega de la serie moderna, tras Doom Eternal (2020). El juego se ambienta muchos años antes de Doom (2016) y sigue los esfuerzos del Doom Slayer por salvar a la humanidad durante una guerra contra el Infierno." 
+         FontSize="24" />
+                <Label Text="Doom: The Dark Ages es un juego de disparos en primera persona desarrollado por id Software y publicado por Bethesda Softworks. Es la octava entrega principal de la franquicia Doom y la tercera entrega de la serie moderna, tras Doom Eternal (2020). El juego se ambienta muchos años antes de Doom (2016) y sigue los esfuerzos del Doom Slayer por salvar a la humanidad durante una guerra contra el Infierno." 
+         FontSize="24" />
+                <Label Text="Doom: The Dark Ages es un juego de disparos en primera persona desarrollado por id Software y publicado por Bethesda Softworks. Es la octava entrega principal de la franquicia Doom y la tercera entrega de la serie moderna, tras Doom Eternal (2020). El juego se ambienta muchos años antes de Doom (2016) y sigue los esfuerzos del Doom Slayer por salvar a la humanidad durante una guerra contra el Infierno." 
+         FontSize="24" />
+                
+
             </StackLayout>
         </ScrollView>
 
-
-        <Image Source="icono.png"
+        <Image Source="icono.jpg"
                AbsoluteLayout.LayoutBounds="0.05,0.05,40,40"
-               AbsoluteLayout.LayoutFlags="PositionProportional"
-               />
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Button Text="Ir a Grid"
                 Clicked="OnGoToGridLayout"
